@@ -1,6 +1,4 @@
 {
-  "name": "project-management",
-  "private": true,
   "dependencies": {
     "@rails/webpacker": "^6.0.0-beta.5",
     "webpack": "^5.11.0",
@@ -11,7 +9,9 @@
     "webpack-dev-server": "^3.11.2"
   },
   "babel": {
-    "presets": ["./node_modules/@rails/webpacker/package/babel/preset.js"]
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js"
+    ]
   },
   "browserslist": [
     "defaults"
